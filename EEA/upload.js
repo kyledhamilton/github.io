@@ -14,7 +14,7 @@ form.addEventListener('submit', e => {
     }
 
     fetch(url, {
-        method: 'POST',
+        method: 'GET',
         body: formData
     }).then(response => {
         console.log(response);
