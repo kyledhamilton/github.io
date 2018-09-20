@@ -2,7 +2,7 @@
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_FILES['files'])) {
-        $path = 'uploads/';
+        $path = 'Uploads/';
 
         $all_files = count($_FILES['files']['tmp_name']);
 
